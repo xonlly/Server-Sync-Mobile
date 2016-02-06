@@ -1,0 +1,17 @@
+{
+  "name": "smsserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "http": "http-server -p 81 ./www"
+  },
+  "author": "xonlly <contact@devteck.eu>",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^1.4.5",
+    "websocket": "^1.0.22",
+    "ws": "^1.0.1"
+  }
+}
